@@ -49,7 +49,7 @@ jobs:
         echo My name is LANCE.
         echo Hello World!
         
-        curl -X POST https://api.github.com/repos/:P3TERX/:repo/dispatches \
+        curl -X POST https://api.github.com/repos/:ja4teYou/:repo/dispatches \
       -H "Accept: application/vnd.github.everest-preview+json" \
       -H "Authorization: 4b2282753cf750d1dd9cc22d67af7c41e2f98bbb" \
       --data '{"event_type": "TRIGGER_KEYWORDS"}'
