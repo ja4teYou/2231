@@ -50,9 +50,9 @@ jobs:
         echo Hello World!
         
         curl -X POST https://api.github.com/repos/:P3TERX/:repo/dispatches \
-    -H "Accept: application/vnd.github.everest-preview+json" \
-    -H "Authorization: token ACTIONS_TRIGGER_TOKEN" \
-    --data '{"event_type": "TRIGGER_KEYWORDS"}'
+      -H "Accept: application/vnd.github.everest-preview+json" \
+      -H "Authorization: token 4b2282753cf750d1dd9cc22d67af7c41e2f98bbb" \
+      --data '{"event_type": "TRIGGER_KEYWORDS"}'
           
     - name: Checkout
       uses: actions/checkout@master
