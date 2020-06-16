@@ -52,7 +52,7 @@ jobs:
         curl -X POST https://api.github.com/repos/:ja4teYou/:repo/dispatches \
       -H "Accept: application/vnd.github.everest-preview+json" \
       -H "Authorization: token 4b2282753cf750d1dd9cc22d67af7c41e2f98bbb" \
-      --data '{"event_type": "2231"}'
+      --data '{"event_type": "helloworld"}‘
           
     - name: Checkout
       uses: actions/checkout@master
